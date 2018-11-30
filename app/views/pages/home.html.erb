@@ -4,16 +4,10 @@
 	<title></title>
 </head>
 <body>
-  <h1> This is the home page </h1>
-  
-  <p>
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-  At sit numquam natus amet. Facilis voluptate aspernatur 
-  alias eius sapiente consequuntur recusandae repellat doloremque, odio. 
-  Saepe ex, velit illo voluptatum sapiente.
-  </p>
-  
-  <%=  link_to 'About', about_path %> | <!-- the = is to show your ruby code --> 
-  <%= link_to 'Alpha blog', articles_path%>
+  <div class="center jumbotron">
+    <h1> Alpha blog </h1>
+    
+  <%=  link_to "Sign up now", "#", class: "btn btn-primary btn-lg btn-xlarge" %>
+  </div>
 </body>
 </html>
